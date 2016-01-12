@@ -1,6 +1,6 @@
 # fiji
 Image Analysis course using FIJI
-
+![logo](http://fiji.sc/_images/a/ae/Fiji-icon.png)
 # Author
 
 Jeremy Pike, [Light Microscopy Core](http://www.lightmicroscopy.cruk.cam.ac.uk/) at [Cancer Research Uk Cambridge Institute](http://www.cruk.cam.ac.uk/)
