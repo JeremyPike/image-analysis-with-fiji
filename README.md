@@ -31,9 +31,5 @@ After this course you should be able to:
 
 # Software
 
-For convenience, we have created a Virtual Machine that will run all the relevant software and plugins within a unix environment. You can run this virtual machine by first [downloading](https://www.virtualbox.org/wiki/Downloads) the latest version of VirtualBox for your operating system. 
+To download Fiji go to https://fiji.sc/#download and choose the version for your operating system. 
 
-N.B. if you an older version of your operating system, you may wish to download an [older version](https://www.virtualbox.org/wiki/Download_Old_Builds_4_3) of VirtualBox.
-
-
-You can now download the latest version of the Virtual Machine from here...
