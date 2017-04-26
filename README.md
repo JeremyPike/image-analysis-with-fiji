@@ -1,7 +1,6 @@
-﻿# Image Analysis with FIJI
+﻿<img src="https://rawgit.com/JeremyPike/image-analysis-with-fiji/master/COMPARE_logo.jpg" width="400">
 
-
-![logo](https://rawgit.com/JeremyPike/image-analysis-with-fiji/master/COMPARE_logo.jpg)
+# Image Analysis with FIJI
 
 [Course website](https://jeremypike.github.io/image-analysis-with-fiji/)
 
