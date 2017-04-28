@@ -15,7 +15,7 @@ Fiji/ImageJ is a leading open-source image analysis application. This course wil
 
 # Aims and Objectives
 
-After this course students should be able to:
+After this course particpants should be able to:
 
     Perform basic image handling, manipulation and visualisation using Fiji. This will include working with multi-channel, z-stack and time-lapse data.
     Understand and use meta-data, for example adding scale bars to images.
