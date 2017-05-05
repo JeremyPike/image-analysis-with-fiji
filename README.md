@@ -9,7 +9,7 @@
 Jeremy Pike, [COMPARE](http://www.birmingham-nottingham.ac.uk/compare/)
 
 
-# Description: 
+# Summary: 
 
 Fiji/ImageJ is a leading open-source image analysis application. This course will briefly cover introductory aspects of image processing and analysis theory, but will focus on practical sessions where participants will gain hands on experience.
 
