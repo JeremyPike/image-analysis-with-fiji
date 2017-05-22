@@ -11,13 +11,19 @@
 getDimensions(width, height, channels, slices, frames)
 
 // Loop through all slices in the stack
-for (i = 1; i <= slices; i = i + 1) {
-
-	// Set the slice to the current index
-	Stack.setSlice(i)
-
-	// Draw the slice index at position (5,5)
-	makeText("z = " + i, 5, 5);
-	run("Draw", "slice");
-	
+for (c = 1; c <= channels; c++) {
+	Stack.setChannel(c);
+	for (t = 1; t <=frames; t ++) {
+		Stack.setFrame(t);
+		for (i = 1; i <= slices; i = i + 1) {
+		
+			// Set the slice to the current index
+			Stack.setSlice(i)
+		
+			// Draw the slice index at position (5,5)
+			makeText("z = " + i, 5, 5);
+			run("Draw", "slice");
+			
+		}
+}
 }
