@@ -11,8 +11,6 @@
 
 #@String(label = "specify a file extension") extension
 #@File(label = "specify a folder containing images", style = "directory") directory
-
-
 // Turn on batch processing
 setBatchMode(true);
 
@@ -27,7 +25,6 @@ for  (i = 0; i < fileNames.length; i = i + 1)  {
 		
 		// Open the Image
 		open(fileNames[i]);
-
 		/////////////// Recorded commands go here !! ////////////////////
 		
 		// Perform a Gaussian Blur, with radius 4 pixels to de-noise the image
@@ -51,7 +48,6 @@ for  (i = 0; i < fileNames.length; i = i + 1)  {
 		// Minimum object size set to 9 micro-meters squared
 		// Only the "exclude on edges", "summarize" boxes were ticked
 		run("Analyze Particles...", "size=9-Infinity exclude summarize");
-
 		/////////////// End of recorded commands ///////////////////
 				
 		// Close all windows
